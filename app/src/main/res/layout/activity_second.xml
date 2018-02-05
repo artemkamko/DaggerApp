@@ -3,9 +3,9 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:gravity="center"
     android:orientation="vertical"
-    tools:context="com.example.dwajot.daggerapp.FirstActivity">
+    android:gravity="center"
+    tools:context="com.example.dwajot.daggerapp.SecondActivity">
 
     <TextView
         android:id="@+id/tvAppTime"
@@ -13,21 +13,14 @@
         android:layout_height="wrap_content"
         android:padding="10dp"
         android:textSize="22sp"
-        android:textStyle="bold" />
+        android:textStyle="bold"/>
 
     <TextView
-        android:id="@+id/tvFirstActivityTime"
+        android:id="@+id/tvSecondActivityTime"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:padding="10dp"
         android:textSize="22sp"
-        android:textStyle="bold" />
-
-    <Button
-        android:id="@+id/btnNextActivity"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:padding="10dp"
-        android:text="Next Activity" />
+        android:textStyle="bold"/>
 
 </LinearLayout>
